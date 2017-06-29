@@ -1,0 +1,6 @@
+11:24:15 **** Build of project prova_bsp ****
+make -k all 
+make: ***  Nessuna regola per generare l'obiettivo "all".
+
+11:24:15 Build Finished (took 69ms)
+
