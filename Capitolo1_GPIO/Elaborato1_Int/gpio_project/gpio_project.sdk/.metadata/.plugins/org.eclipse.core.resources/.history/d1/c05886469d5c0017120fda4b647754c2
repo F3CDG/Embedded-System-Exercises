@@ -1,0 +1,131 @@
+#include "gpio_custom.h"
+
+//inizializzazione gpio
+void gpio_custom_Init(gpio_custom_TypeDef *gpio, uint32_t base_address){
+
+	assert(gpio!=NULL && "Errore allocazione di memoria per tipo GPIO");
+	assert(base_address%4==0 && "Base address non allineato a 4 byte");
+	gpio->base_address=(uint32_t*)base_address;
+	gpio->pad_en_offset=gpio_custom_PAD_EN;
+	gpio->pad_in_offset=gpio_custom_PAD_IN;
+	gpio->pad_out_offset=gpio_custom_PAD_OUT;
+	gpio->pad_rw_n_offset=gpio_custom_PAD_RW_N;
+	gpio->gie_offset=gpio_custom_GIE;
+	gpio->iack_offset=gpio_custom_IACK;
+	gpio->imr_offset=gpio_custom_IMR;
+	gpio->sr_offset=gpio_custom_SR;
+
+}
+
+void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value){
+
+	assert(gpio!=NULL && "Errore allocazione di memoria per tipo GPIO");
+	assert(gpio->base_address!=NULL && "Errore allocazione base address GPIO");
+	gpio->base_address[reg/4]=(gpio->base_address[reg/4] & ~mask) | (mask & mask_value);
+}
+
+void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value){
+
+	assert(gpio!=NULL && "Errore allocazione di memoria per tipo GPIO");
+	assert(gpio->base_address!=NULL && "Errore allocazione base address GPIO");
+	if((0x0000000F & mask) == mask)
+		value == HIGH ? gpio_custom_Set_value_reg(gpio,reg,mask,0xF) : gpio_custom_Set_value_reg(gpio,reg,mask,0x0);
+}
+
+
+static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value){
+	gpio_custom_Write_mask(gpio,reg, 0x1<<position, value);
+}
+
+static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask){
+
+	assert(gpio!=NULL && "Errore allocazione di memoria per tipo GPIO");
+	assert(gpio->base_address!=NULL && "Errore allocazione base address GPIO");
+	if((0x0000000F & mask) == mask){
+		return (gpio->base_address[reg/4] & mask);
+	}
+	return -1;
+}
+
+static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position){
+	return gpio_custom_Read_mask(gpio,reg,0x1<<position) == (0x1<<position);
+}
+
+/*static void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t set,uint8_t position){
+	gpio_custom_Read_one(gpio,reg,set,position) == HIGH ? gpio_custom_Write_one(gpio,reg ,set,position,LOW) : gpio_custom_Write_one(gpio,reg,set,position,HIGH);
+}
+
+static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+	int i;
+	for(i=0;i<4;i++){
+		if((0x1<<(set*4+i)) == ((0x1<<(set*4+i)) & mask)){
+			gpio_custom_Toggle_one(gpio,reg,set,i+set*4);
+		}
+	}
+}*/
+
+void gpio_custom_SetEnable(gpio_custom_TypeDef *gpio,uint32_t mask,uint8_t mask_value){
+	gpio_custom_Write_mask(gpio,gpio_custom_PAD_EN, mask, mask_value);
+	printf("Settaggio registro abilitazione\n");
+}
+uint32_t gpio_custom_GetEnable(gpio_custom_TypeDef *gpio, uint32_t mask){
+	printf("Lettura da registro abilitazione\n");
+	return gpio_custom_Read_mask(gpio,gpio_custom_PAD_EN, mask);
+}
+
+void gpio_custom_SetValue(gpio_custom_TypeDef *gpio, uint32_t mask, uint8_t mask_value){
+	gpio_custom_Write_mask(gpio,gpio_custom_PAD_OUT, mask, mask_value);
+	printf("Scrittura valori su periferica\n");
+
+}
+uint32_t gpio_custom_GetValue(gpio_custom_TypeDef *gpio, uint32_t mask){
+	printf("Lettura valori da periferica\n");
+	return gpio_custom_Read_mask(gpio,gpio_custom_PAD_IN, mask);
+}
+
+void gpio_custom_SetMode(gpio_custom_TypeDef *gpio, uint32_t mask, uint8_t value){
+	gpio_custom_Write_mask(gpio,gpio_custom_PAD_RW_N, mask, value);
+	printf("Definita modalità periferica\n");
+}
+uint32_t gpio_custom_GetMode(gpio_custom_TypeDef *gpio, uint32_t mask){
+	printf("Lettura tipologia periferica\n");
+	return gpio_custom_Read_mask(gpio,gpio_custom_PAD_RW_N, mask);
+}
+
+void gpio_custom_SetInterruptMask(gpio_custom_TypeDef *gpio, uint32_t mask, uint8_t value){
+	gpio_custom_Write_mask(gpio,gpio_custom_IMR, mask, value);
+	printf("Scrittura in registro delle interrupt mascherate\n");
+}
+uint32_t gpio_custom_GetInterruptMask(gpio_custom_TypeDef *gpio, uint32_t mask){
+	printf("Lettura tipologia periferica\n");
+	return gpio_custom_Read_mask(gpio,gpio_custom_IMR, mask);
+}
+
+void gpio_custom_SetStatusInterrupt(gpio_custom_TypeDef *gpio, uint32_t mask, uint8_t value){
+	gpio_custom_Write_mask(gpio,gpio_custom_SR, mask, value);
+	printf("Scrittura in registro degli interrupt pendenti\n");
+}
+uint32_t gpio_custom_GetStatusInterrupt(gpio_custom_TypeDef *gpio, uint32_t mask){
+	printf("Lettura tipologia periferica\n");
+	return gpio_custom_Read_mask(gpio,gpio_custom_SR, mask);
+}
+
+void gpio_custom_SetAckInterrupt(gpio_custom_TypeDef *gpio, uint32_t mask, uint8_t value){
+	gpio_custom_Write_mask(gpio,gpio_custom_IACK, mask, value);
+	printf("Inviato interrupt ack alla periferica\n");
+}
+
+void gpio_custom_SetGlobalInterrupt(gpio_custom_TypeDef *gpio){
+	gpio_custom_Write_one(gpio,gpio_custom_GIE, 0x0, 0x1);
+	printf("Scrittura in registro interrupt globale\n");
+}
+uint32_t gpio_custom_GetGlobalInterrupt(gpio_custom_TypeDef *gpio){
+	printf("Lettura interrupt globale");
+	return gpio_custom_Read_one(gpio, gpio_custom_GIE, 0x0);
+
+}
+
+
+
+
+

@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/daniele/Scrivania/workspace_master/zybo_base_system/source/hw/project_gpio_interrupt/project_gpio_interrupt.runs/synth_1'
+HD_PWD='/home/daniele/Sistemi_Embedded/Esercitazione_6/Elaborato6_kernel/workspace_master/zybo_base_system/source/hw/project_gpio_interrupt/project_gpio_interrupt.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

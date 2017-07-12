@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Jul  9 16:23:36 2017
+# Process ID: 7027
+# Current directory: /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.runs/design_for_gpio_rst_ps7_0_100M_0_synth_1
+# Command line: vivado -log design_for_gpio_rst_ps7_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_for_gpio_rst_ps7_0_100M_0.tcl
+# Log file: /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.runs/design_for_gpio_rst_ps7_0_100M_0_synth_1/design_for_gpio_rst_ps7_0_100M_0.vds
+# Journal file: /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.runs/design_for_gpio_rst_ps7_0_100M_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_for_gpio_rst_ps7_0_100M_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1072.566 ; gain = 142.086 ; free physical = 7629 ; free virtual = 11448
+INFO: [Synth 8-638] synthesizing module 'design_for_gpio_rst_ps7_0_100M_0' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ip/design_for_gpio_rst_ps7_0_100M_0/synth/design_for_gpio_rst_ps7_0_100M_0.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [/usr/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43312]
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (1#1) [/usr/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43312]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (2#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (3#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (4#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (5#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (6#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'design_for_gpio_rst_ps7_0_100M_0' (7#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ip/design_for_gpio_rst_ps7_0_100M_0/synth/design_for_gpio_rst_ps7_0_100M_0.vhd:71]
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1114.035 ; gain = 183.555 ; free physical = 7523 ; free virtual = 11342
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1114.035 ; gain = 183.555 ; free physical = 7513 ; free virtual = 11333
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1472.223 ; gain = 0.000 ; free physical = 6509 ; free virtual = 10330
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5791 ; free virtual = 9612
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5790 ; free virtual = 9612
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5790 ; free virtual = 9612
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5789 ; free virtual = 9610
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5841 ; free virtual = 9662
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5621 ; free virtual = 9442
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5621 ; free virtual = 9442
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5601 ; free virtual = 9422
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5599 ; free virtual = 9420
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5599 ; free virtual = 9420
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5599 ; free virtual = 9420
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5599 ; free virtual = 9420
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5599 ; free virtual = 9420
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5599 ; free virtual = 9420
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     5|
+|2     |LUT2  |     9|
+|3     |LUT3  |     1|
+|4     |LUT4  |     6|
+|5     |LUT5  |     3|
+|6     |LUT6  |     1|
+|7     |SRL16 |     1|
+|8     |FDR   |     8|
+|9     |FDRE  |    28|
+|10    |FDSE  |     4|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 1472.223 ; gain = 541.742 ; free physical = 5599 ; free virtual = 9420
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1472.223 ; gain = 474.238 ; free physical = 5587 ; free virtual = 9408

@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Jul  9 16:42:48 2017
+# Process ID: 8354
+# Current directory: /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.runs/design_for_gpio_axi_gpio_0_2_synth_1
+# Command line: vivado -log design_for_gpio_axi_gpio_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_for_gpio_axi_gpio_0_2.tcl
+# Log file: /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.runs/design_for_gpio_axi_gpio_0_2_synth_1/design_for_gpio_axi_gpio_0_2.vds
+# Journal file: /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.runs/design_for_gpio_axi_gpio_0_2_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_for_gpio_axi_gpio_0_2.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1079.566 ; gain = 149.086 ; free physical = 7923 ; free virtual = 11765
+INFO: [Synth 8-638] synthesizing module 'design_for_gpio_axi_gpio_0_2' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ip/design_for_gpio_axi_gpio_0_2/synth/design_for_gpio_axi_gpio_0_2.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/4f16/hdl/axi_gpio_v2_0_vh_rfs.vhd:1091]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/4f16/hdl/axi_gpio_v2_0_vh_rfs.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/4f16/hdl/axi_gpio_v2_0_vh_rfs.vhd:173]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ipshared/4f16/hdl/axi_gpio_v2_0_vh_rfs.vhd:1091]
+INFO: [Synth 8-256] done synthesizing module 'design_for_gpio_axi_gpio_0_2' (8#1) [/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima tipologia/vivado_project/project_gpio/project_gpio.srcs/sources_1/bd/design_for_gpio/ip/design_for_gpio_axi_gpio_0_2/synth/design_for_gpio_axi_gpio_0_2.vhd:84]
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1122.035 ; gain = 191.555 ; free physical = 7778 ; free virtual = 11620
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1122.035 ; gain = 191.555 ; free physical = 7768 ; free virtual = 11610
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1481.230 ; gain = 0.000 ; free physical = 7006 ; free virtual = 10848
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6939 ; free virtual = 10782
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6939 ; free virtual = 10782
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6938 ; free virtual = 10782
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6945 ; free virtual = 10788
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6934 ; free virtual = 10776
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6821 ; free virtual = 10666
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6819 ; free virtual = 10664
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6816 ; free virtual = 10661
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6765 ; free virtual = 10611
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6765 ; free virtual = 10611
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6765 ; free virtual = 10611
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6765 ; free virtual = 10611
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6765 ; free virtual = 10611
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6765 ; free virtual = 10611
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     5|
+|3     |LUT3 |     4|
+|4     |LUT4 |     7|
+|5     |LUT5 |    11|
+|6     |LUT6 |    10|
+|7     |FDR  |    16|
+|8     |FDRE |    41|
+|9     |FDSE |     4|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1481.230 ; gain = 550.750 ; free physical = 6765 ; free virtual = 10611
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1481.230 ; gain = 483.246 ; free physical = 6759 ; free virtual = 10605

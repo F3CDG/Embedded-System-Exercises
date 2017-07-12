@@ -1,0 +1,4 @@
+14:18:27 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborati/Elaborato1_NoInt_DriverC_OO/gpio_project/gpio_project.sdk/gpio/src/temp_xsdb_launch_script.tcl
+14:18:31 INFO  : XSDB server has started successfully.
+14:19:32 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborati/Elaborato1_NoInt_DriverC_OO/gpio_project/gpio_project.sdk/gpio/src/temp_xsdb_launch_script.tcl
+14:19:33 INFO  : XSDB server has started successfully.

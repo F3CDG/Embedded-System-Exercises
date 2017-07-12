@@ -1,0 +1,64 @@
+#include "gpio_custom.h"
+
+//inizializzazione gpio
+void gpio_custom_Init(gpio_custom_TypeDef *gpio, uint32_t base_address){
+
+	assert(gpio!=NULL && "Errore allocazione di memoria per tipo GPIO");
+	assert(base_address%4==0 && "Base address non allineato a 4 byte");
+	gpio->BASEADDRESS=(uint32_t*)base_address;
+	gpio->PAD_EN=INIT_CONFIG_EN;
+	gpio->PAD_RW_N=INIT_CONFIG_RWN;
+}
+
+void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value){
+
+	assert(gpio!=NULL && "Errore allocazione di memoria per tipo GPIO");
+	assert(gpio->BASEADDRESS!=NULL && "Errore allocazione base address GPIO");
+	gpio->BASEADDRESS[reg/4]=(gpio->BASEADDRESS[reg/4] & ~mask) | (mask & mask_value);
+}
+
+void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint8_t set, uint32_t mask, uint8_t value){
+
+	assert(gpio!=NULL && "Errore allocazione di memoria per tipo GPIO");
+	assert(gpio->BASEADDRESS!=NULL && "Errore allocazione base address GPIO");
+	assert((reg==0 || reg%12!=0) && "Scrittura in una locazione di memoria non consentita");
+	mask = mask<<set;
+	if(((0x0000000F<<set) & mask)==mask)
+		value == HIGH ? gpio_custom_Set_value_reg(gpio,reg,mask,0xF<<set) : gpio_custom_Set_value_reg(gpio,reg,mask,0x0);
+}
+
+void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint8_t set, uint32_t position, uint8_t value){
+	gpio_custom_Write_mask(gpio,reg, set, 0x1<<position, value);
+}
+
+uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint8_t set, uint32_t mask){
+
+	assert(gpio!=NULL && "Errore allocazione di memoria per tipo GPIO");
+	assert(gpio->BASEADDRESS!=NULL && "Errore allocazione base address GPIO");
+	mask = mask<<set;
+	if(((0x0000000F<<set) & mask) == mask){
+		return (gpio->BASEADDRESS[reg/4] & mask);
+	}
+	return -1;
+}
+
+uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint8_t set, uint32_t position){
+	return gpio_custom_Read_mask(gpio,reg,set,0x1<<position) == (0x1<<(position+set));
+}
+
+void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t set,uint8_t position){
+	gpio_custom_Read_one(gpio,reg,set,position) == HIGH ? gpio_custom_Write_one(gpio,reg ,set,position,LOW) : gpio_custom_Write_one(gpio,reg,set,position,HIGH);
+}
+
+void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint8_t set,uint32_t mask){
+	int i;
+	for(i=0;i<4;i++){
+		if((0x1<<(set*4+i)) == ((0x1<<(set*4+i)) & mask)){
+			gpio_custom_Toggle_one(gpio,reg, set,i+set*4);
+		}
+	}
+}*/
+
+
+
+

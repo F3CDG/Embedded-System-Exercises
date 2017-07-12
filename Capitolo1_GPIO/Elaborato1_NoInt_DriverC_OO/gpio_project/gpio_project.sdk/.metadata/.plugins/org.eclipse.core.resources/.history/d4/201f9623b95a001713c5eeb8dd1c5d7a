@@ -1,0 +1,67 @@
+/*
+ * gpio_header.h
+ *
+ *  Created on: 23 mag 2017
+ *      Author: daniele
+ */
+
+#ifndef SRC_GPIO_CUSTOM_H_
+#define SRC_GPIO_CUSTOM_H_
+
+#include "xparameters.h"
+#include "my_gpio.h"
+#include <assert.h>
+
+typedef struct{
+	volatile uint32_t *BASEADDRESS;
+	volatile uint32_t PAD_OUT;
+	volatile uint32_t PAD_RW_N;
+	volatile uint32_t PAD_EN;
+	volatile uint32_t PAD_IN;
+}gpio_custom_TypeDef;
+
+//macro spiazzamenti per i registri del gpio
+#define gpio_custom_PAD_OUT MY_GPIO_S00_AXI_SLV_REG0_OFFSET
+#define gpio_custom_PAD_RW_N MY_GPIO_S00_AXI_SLV_REG1_OFFSET
+#define gpio_custom_PAD_EN MY_GPIO_S00_AXI_SLV_REG2_OFFSET
+#define gpio_custom_PAD_IN MY_GPIO_S00_AXI_SLV_REG3_OFFSET*/
+
+typedef enum{
+	LOW,
+	HIGH
+}gpio_custom_ValueType;
+
+typedef enum{
+	SET_LED = 0x0,
+	SET_SWITCH = 0x4
+}gpio_custom_SetType;
+
+typedef enum{
+	INIT_CONFIG_EN = 0x0,
+	INIT_CONFIG_RWN = 0xF
+}gpio_custom_InitType;
+
+// macro indirizzo base gpio
+#define GPIO_BASE XPAR_MY_GPIO_0_S00_AXI_BASEADDR
+#define GPIO ((gpio_custom_TypeDef*)GPIO_BASE)
+
+void gpio_custom_Init(gpio_custom_TypeDef *gpio, uint32_t base_address);
+void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint8_t set, uint32_t mask, uint8_t value);
+void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint8_t set, uint32_t position, uint8_t value);
+uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint8_t set, uint32_t mask);
+/*uint32_t gpio_read_one(uint32_t reg, uint8_t set, uint32_t position);
+void gpio_toggle_one(uint32_t reg,uint8_t set,uint8_t position);
+void gpio_toggle_mask(uint32_t reg, uint8_t set,uint32_t mask);*/
+
+
+
+
+
+
+
+
+
+
+
+#endif /* SRC_GPIO_CUSTOM_H_ */

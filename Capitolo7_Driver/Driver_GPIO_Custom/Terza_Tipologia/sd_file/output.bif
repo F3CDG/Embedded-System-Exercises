@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Custom/Terza_Tipologia/vivado_project/project_gpio_custom_int/gpio_project.sdk/fsbl/Debug/fsbl.elf
+	/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Custom/Terza_Tipologia/vivado_project/project_gpio_custom_int/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit
+	/home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Custom/Terza_Tipologia/sd_file/u-boot.elf
+}

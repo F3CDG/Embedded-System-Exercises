@@ -1,0 +1,312 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sun Jun  4 10:34:26 2017
+# Process ID: 3780
+# Current directory: /home/ciro/Scrivania/SE/Elaborati/Elaborato1/gpio_project/gpio_project.tmp/my_gpio_v1_0_project/my_gpio_v1_0_project.runs/synth_1
+# Command line: vivado -log my_gpio_v1_0.vds -mode batch -messageDb vivado.pb -notrace -source my_gpio_v1_0.tcl
+# Log file: /home/ciro/Scrivania/SE/Elaborati/Elaborato1/gpio_project/gpio_project.tmp/my_gpio_v1_0_project/my_gpio_v1_0_project.runs/synth_1/my_gpio_v1_0.vds
+# Journal file: /home/ciro/Scrivania/SE/Elaborati/Elaborato1/gpio_project/gpio_project.tmp/my_gpio_v1_0_project/my_gpio_v1_0_project.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source my_gpio_v1_0.tcl -notrace
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /opt/Xilinx/Vivado/2016.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+Command: synth_design -top my_gpio_v1_0 -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3784 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1031.379 ; gain = 139.078 ; free physical = 758 ; free virtual = 5909
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'my_gpio_v1_0' [/home/ciro/Scrivania/SE/Elaborati/Elaborato1/ip_repo/my_gpio_1.0/hdl/my_gpio_v1_0.vhd:49]
+	Parameter gpio_size bound to: 4 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter gpio_size bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'my_gpio_v1_0_S00_AXI' declared at '/home/ciro/Scrivania/SE/Elaborati/Elaborato1/ip_repo/my_gpio_1.0/hdl/my_gpio_v1_0_S00_AXI.vhd:5' bound to instance 'my_gpio_v1_0_S00_AXI_inst' of component 'my_gpio_v1_0_S00_AXI' [/home/ciro/Scrivania/SE/Elaborati/Elaborato1/ip_repo/my_gpio_1.0/hdl/my_gpio_v1_0.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'my_gpio_v1_0_S00_AXI' [/home/ciro/Scrivania/SE/Elaborati/Elaborato1/ip_repo/my_gpio_1.0/hdl/my_gpio_v1_0_S00_AXI.vhd:86]
+	Parameter gpio_size bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/ciro/Scrivania/SE/Elaborati/Elaborato1/ip_repo/my_gpio_1.0/hdl/my_gpio_v1_0_S00_AXI.vhd:229]
+INFO: [Synth 8-226] default block is never used [/home/ciro/Scrivania/SE/Elaborati/Elaborato1/ip_repo/my_gpio_1.0/hdl/my_gpio_v1_0_S00_AXI.vhd:359]
+	Parameter gpio_size bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'gpio_array' declared at '/home/ciro/Scrivania/SE/gpio_array.vhd:34' bound to instance 'GPIO_ARRAY_INST' of component 'gpio_array' [/home/ciro/Scrivania/SE/Elaborati/Elaborato1/ip_repo/my_gpio_1.0/hdl/my_gpio_v1_0_S00_AXI.vhd:395]
+INFO: [Synth 8-638] synthesizing module 'gpio_array' [/home/ciro/Scrivania/SE/gpio_array.vhd:43]
+	Parameter gpio_size bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'gpio' declared at '/home/ciro/Scrivania/SE/gpio.vhd:34' bound to instance 'GPIO_INST' of component 'gpio' [/home/ciro/Scrivania/SE/gpio_array.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'gpio' [/home/ciro/Scrivania/SE/gpio.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'gpio' (1#1) [/home/ciro/Scrivania/SE/gpio.vhd:42]
+INFO: [Synth 8-3491] module 'gpio' declared at '/home/ciro/Scrivania/SE/gpio.vhd:34' bound to instance 'GPIO_INST' of component 'gpio' [/home/ciro/Scrivania/SE/gpio_array.vhd:56]
+INFO: [Synth 8-3491] module 'gpio' declared at '/home/ciro/Scrivania/SE/gpio.vhd:34' bound to instance 'GPIO_INST' of component 'gpio' [/home/ciro/Scrivania/SE/gpio_array.vhd:56]
+INFO: [Synth 8-3491] module 'gpio' declared at '/home/ciro/Scrivania/SE/gpio.vhd:34' bound to instance 'GPIO_INST' of component 'gpio' [/home/ciro/Scrivania/SE/gpio_array.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'gpio_array' (2#1) [/home/ciro/Scrivania/SE/gpio_array.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'my_gpio_v1_0_S00_AXI' (3#1) [/home/ciro/Scrivania/SE/Elaborati/Elaborato1/ip_repo/my_gpio_1.0/hdl/my_gpio_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'my_gpio_v1_0' (4#1) [/home/ciro/Scrivania/SE/Elaborati/Elaborato1/ip_repo/my_gpio_1.0/hdl/my_gpio_v1_0.vhd:49]
+WARNING: [Synth 8-3331] design my_gpio_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design my_gpio_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design my_gpio_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design my_gpio_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design my_gpio_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design my_gpio_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1070.824 ; gain = 178.523 ; free physical = 714 ; free virtual = 5866
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1070.824 ; gain = 178.523 ; free physical = 714 ; free virtual = 5866
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1078.824 ; gain = 186.523 ; free physical = 714 ; free virtual = 5866
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1086.832 ; gain = 194.531 ; free physical = 706 ; free virtual = 5858
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module my_gpio_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1161.152 ; gain = 268.852 ; free physical = 604 ; free virtual = 5783
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design my_gpio_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design my_gpio_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design my_gpio_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design my_gpio_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design my_gpio_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design my_gpio_v1_0 has unconnected port s00_axi_arprot[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1169.156 ; gain = 276.855 ; free physical = 596 ; free virtual = 5775
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1169.156 ; gain = 276.855 ; free physical = 596 ; free virtual = 5775
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'my_gpio_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'my_gpio_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\my_gpio_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'my_gpio_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'my_gpio_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\my_gpio_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (my_gpio_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module my_gpio_v1_0.
+WARNING: [Synth 8-3332] Sequential element (my_gpio_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module my_gpio_v1_0.
+WARNING: [Synth 8-3332] Sequential element (my_gpio_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module my_gpio_v1_0.
+WARNING: [Synth 8-3332] Sequential element (my_gpio_v1_0_S00_AXI_inst/axi_bresp_reg[0]) is unused and will be removed from module my_gpio_v1_0.
+WARNING: [Synth 8-3332] Sequential element (my_gpio_v1_0_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module my_gpio_v1_0.
+WARNING: [Synth 8-3332] Sequential element (my_gpio_v1_0_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module my_gpio_v1_0.
+WARNING: [Synth 8-3332] Sequential element (my_gpio_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module my_gpio_v1_0.
+WARNING: [Synth 8-3332] Sequential element (my_gpio_v1_0_S00_AXI_inst/axi_rresp_reg[0]) is unused and will be removed from module my_gpio_v1_0.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     1|
+|3     |LUT2  |     5|
+|4     |LUT3  |     3|
+|5     |LUT4  |    14|
+|6     |LUT5  |    28|
+|7     |LUT6  |     5|
+|8     |FDRE  |   135|
+|9     |FDSE  |     2|
+|10    |IBUF  |    47|
+|11    |IOBUF |     4|
+|12    |OBUF  |    41|
++------+------+------+
+
+Report Instance Areas: 
++------+----------------------------+---------------------+------+
+|      |Instance                    |Module               |Cells |
++------+----------------------------+---------------------+------+
+|1     |top                         |                     |   286|
+|2     |  my_gpio_v1_0_S00_AXI_inst |my_gpio_v1_0_S00_AXI |   193|
++------+----------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1185.180 ; gain = 205.797 ; free physical = 579 ; free virtual = 5760
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.180 ; gain = 292.879 ; free physical = 579 ; free virtual = 5760
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1334.047 ; gain = 367.246 ; free physical = 491 ; free virtual = 5695
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.53 . Memory (MB): peak = 1366.066 ; gain = 0.000 ; free physical = 482 ; free virtual = 5692
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  4 10:34:43 2017...

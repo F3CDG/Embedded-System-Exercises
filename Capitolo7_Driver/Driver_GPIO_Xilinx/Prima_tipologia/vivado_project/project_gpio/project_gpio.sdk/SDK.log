@@ -1,0 +1,16 @@
+17:08:37 INFO  : Registering command handlers for SDK TCF services
+17:08:40 INFO  : Launching XSCT server: xsct -n -interactive /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima_tipologia/vivado_project/project_gpio/project_gpio.sdk/temp_xsdb_launch_script.tcl
+17:08:40 ERROR : (XSDB Server)awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+
+17:08:41 INFO  : XSCT server has started successfully.
+17:08:41 INFO  : Successfully done setting XSCT server connection channel  
+17:08:41 INFO  : Successfully done setting SDK workspace  
+17:08:41 INFO  : Processing command line option -hwspec /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima_tipologia/vivado_project/project_gpio/project_gpio.sdk/design_for_gpio_wrapper.hdf.
+17:09:44 INFO  : Saving repository preferences.
+17:09:44 INFO  : Reading in cores from local repositories: 
+		 /home/daniele/Sistemi_Embedded/Esercitazione_6/Elaborato6_kernel/workspace_master/device-tree-xlnx
+17:09:44 INFO  : Cleaning BSP projects in the workspace.
+17:30:10 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima_tipologia/sd_file/BOOT.bin
+17:30:10 INFO  : Creating new bif file /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Xilinx/Prima_tipologia/sd_file/output.bif
+17:30:10 INFO  : Bootgen command execution is done.
+17:30:15 INFO  : Saving repository preferences.

@@ -1,0 +1,342 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 15:22:59 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_int_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_for_gpio_my_gpio_int_0_2 (user.org:user:my_gpio_int:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 15:22:59 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_int_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_for_gpio_my_gpio_int_0_1 (user.org:user:my_gpio_int:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 15:22:58 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_int_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_for_gpio_my_gpio_int_0_0 (user.org:user:my_gpio_int:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 15:22:31 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_int_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_for_gpio_my_gpio_int_0_2 (user.org:user:my_gpio_int:1.0) from (Rev. 1) to (Rev. 2)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_for_gpio_my_gpio_int_0_2'.
+
+
+-Upgrade has added interface 'irq' (xilinx.com:signal:interrupt:1.0)
+
+-Upgrade has added interface 's00_axi_aclk' (xilinx.com:signal:clock:1.0)
+
+-Upgrade has added interface 's00_axi_aresetn' (xilinx.com:signal:reset:1.0)
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 15:22:31 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_int_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_for_gpio_my_gpio_int_0_1 (user.org:user:my_gpio_int:1.0) from (Rev. 1) to (Rev. 2)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_for_gpio_my_gpio_int_0_1'.
+
+
+-Upgrade has added interface 'irq' (xilinx.com:signal:interrupt:1.0)
+
+-Upgrade has added interface 's00_axi_aclk' (xilinx.com:signal:clock:1.0)
+
+-Upgrade has added interface 's00_axi_aresetn' (xilinx.com:signal:reset:1.0)
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 15:22:31 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_int_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_for_gpio_my_gpio_int_0_0 (user.org:user:my_gpio_int:1.0) from (Rev. 1) to (Rev. 2)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_for_gpio_my_gpio_int_0_0'.
+
+
+-Upgrade has added interface 'irq' (xilinx.com:signal:interrupt:1.0)
+
+-Upgrade has added interface 's00_axi_aclk' (xilinx.com:signal:clock:1.0)
+
+-Upgrade has added interface 's00_axi_aresetn' (xilinx.com:signal:reset:1.0)
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 15:19:10 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_int_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_for_gpio_my_gpio_int_0_2 (user.org:user:my_gpio_int:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 15:19:10 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_int_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_for_gpio_my_gpio_int_0_1 (user.org:user:my_gpio_int:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 15:19:10 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_int_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_for_gpio_my_gpio_int_0_0 (user.org:user:my_gpio_int:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 14:58:16 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_rst_processing_system7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_for_gpio_rst_processing_system7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 14:58:15 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_processing_system7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_for_gpio_processing_system7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 9) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jul 12 14:58:15 2017
+| Host         : daniele-Inspiron-7559 running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_for_gpio_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 3)) to current project options.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+Added parameter PCW_GP0_NUM_WRITE_THREADS with value 4 (source 'default')
+Added parameter PCW_GP0_NUM_READ_THREADS with value 4 (source 'default')
+Added parameter PCW_GP1_NUM_WRITE_THREADS with value 4 (source 'default')
+Added parameter PCW_GP1_NUM_READ_THREADS with value 4 (source 'default')
+Added parameter PCW_GP0_EN_MODIFIABLE_TXN with value 0 (source 'default')
+Added parameter PCW_GP1_EN_MODIFIABLE_TXN with value 0 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Wed Jun 28 18:07:25 2017
+| Host         : ciro-X550JD running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_for_gpio_my_gpio_0_1 (user.org:user:my_gpio:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Wed Jun 28 18:07:25 2017
+| Host         : ciro-X550JD running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_for_gpio_my_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_for_gpio_my_gpio_0_0 (user.org:user:my_gpio:1.0) from (Rev. 8) to (Rev. 9)
+

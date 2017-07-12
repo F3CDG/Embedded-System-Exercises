@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# 
+# Start of session at: Wed Jul 12 15:44:23 2017
+# Process ID: 9112
+# Current directory: /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Custom/Terza_Tipologia/vivado_project/project_gpio_custom_int/gpio_project.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Custom/Terza_Tipologia/vivado_project/project_gpio_custom_int/gpio_project.sdk/webtalk/webtalk.log
+# Journal file: /home/daniele/Sistemi_Embedded/Esercitazione_7/Driver/Esercitazione_7/Driver_GPIO_Custom/Terza_Tipologia/vivado_project/project_gpio_custom_int/gpio_project.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

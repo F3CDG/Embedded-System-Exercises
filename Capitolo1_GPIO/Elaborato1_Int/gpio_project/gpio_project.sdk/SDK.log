@@ -1,0 +1,85 @@
+18:30:26 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/temp_xsdb_launch_script.tcl
+18:30:27 INFO  : XSDB server has started successfully.
+18:30:27 INFO  : Processing command line option -hwspec /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper.hdf.
+18:32:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:32:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652999A" && level==0} -index 1' command is executed.
+18:32:08 INFO  : FPGA configured successfully with bitstream "/home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit"
+18:32:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:32:48 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Error downloading program to target: 
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.loadProgram(XilinxAppLaunchConfigurationDelegate.java:865)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:746)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+18:33:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:33:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:33:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652999A" && level==0} -index 1' command is executed.
+18:33:12 INFO  : FPGA configured successfully with bitstream "/home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit"
+18:33:16 INFO  : ps7_init is completed.
+18:33:16 INFO  : ps7_post_config is completed.
+18:33:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:39:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:39:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652999A" && level==0} -index 1' command is executed.
+18:39:51 INFO  : FPGA configured successfully with bitstream "/home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit"
+18:40:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:40:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652999A" && level==0} -index 1' command is executed.
+18:40:31 INFO  : FPGA configured successfully with bitstream "/home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit"
+18:41:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:41:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:47:14 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:56:05 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/temp_xsdb_launch_script.tcl
+18:56:06 INFO  : XSDB server has started successfully.
+18:57:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:57:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652999A" && level==0} -index 1' command is executed.
+18:57:15 INFO  : FPGA configured successfully with bitstream "/home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit"
+18:57:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:59:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:59:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652999A" && level==0} -index 1' command is executed.
+18:59:22 INFO  : FPGA configured successfully with bitstream "/home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit"
+18:59:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:03:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:03:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652999A" && level==0} -index 1' command is executed.
+19:03:43 INFO  : FPGA configured successfully with bitstream "/home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit"
+19:09:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652999A" && level==0} -index 1' command is executed.
+19:10:00 INFO  : FPGA configured successfully with bitstream "/home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit"
+19:10:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:10:09 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Error downloading program to target: 
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.loadProgram(XilinxAppLaunchConfigurationDelegate.java:865)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:746)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+19:10:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:10:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652999A" && level==0} -index 1' command is executed.
+19:10:22 INFO  : FPGA configured successfully with bitstream "/home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/design_for_gpio_wrapper_hw_platform_0/design_for_gpio_wrapper.bit"
+19:10:27 INFO  : ps7_init is completed.
+19:10:27 INFO  : ps7_post_config is completed.
+19:10:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:25:49 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+19:25:49 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+19:26:22 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:29:30 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/temp_xsdb_launch_script.tcl
+09:29:34 INFO  : XSDB server has started successfully.
+09:50:45 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/temp_xsdb_launch_script.tcl
+09:50:49 INFO  : XSDB server has started successfully.
+15:25:46 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/temp_xsdb_launch_script.tcl
+15:25:48 INFO  : XSDB server has started successfully.
+17:11:21 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/temp_xsdb_launch_script.tcl
+17:11:24 INFO  : XSDB server has started successfully.
+12:21:13 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/temp_xsdb_launch_script.tcl
+12:21:16 INFO  : XSDB server has started successfully.
+12:20:21 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/temp_xsdb_launch_script.tcl
+12:20:25 INFO  : XSDB server has started successfully.
+05:34:21 INFO  : Launching XSDB server: xsdb -n -interactive /home/ciro/Scrivania/SE/Elaborato1_Int/gpio_project/gpio_project.sdk/temp_xsdb_launch_script.tcl
+05:34:25 INFO  : XSDB server has started successfully.

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="/home/daniele/Sistemi_Embedded/Esercitazione_6/Elaborato6_kernel/workspace_master/zybo_base_system/source/hw/project_gpio_interrupt/project_gpio_interrupt.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

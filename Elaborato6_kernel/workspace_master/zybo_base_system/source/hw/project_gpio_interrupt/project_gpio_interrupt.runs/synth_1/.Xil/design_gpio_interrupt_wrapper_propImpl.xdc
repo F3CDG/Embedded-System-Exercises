@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/daniele/Scrivania/workspace_master/zybo_base_system/source/hw/project_gpio_interrupt/project_gpio_interrupt.srcs/constrs_1/imports/new/pad_location.xdc rfile:../../../project_gpio_interrupt.srcs/constrs_1/imports/new/pad_location.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/daniele/Sistemi_Embedded/Esercitazione_6/Elaborato6_kernel/workspace_master/zybo_base_system/source/hw/project_gpio_interrupt/project_gpio_interrupt.srcs/constrs_1/imports/new/pad_location.xdc rfile:../../../project_gpio_interrupt.srcs/constrs_1/imports/new/pad_location.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN R18 [get_ports {btn_tri_i[0]}]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]

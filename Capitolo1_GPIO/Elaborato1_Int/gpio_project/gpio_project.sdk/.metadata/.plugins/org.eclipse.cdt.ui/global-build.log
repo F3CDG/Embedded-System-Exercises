@@ -1,0 +1,1404 @@
+18:31:03 **** Build of project gpio_interrupt_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/my_gpio_v1_0/src
+make -C ps7_cortexa9_0/libsrc/my_gpio_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling coresightps_dcc
+arm-none-eabi-ar: creazione di ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/my_gpio_v1_0/src
+make -C ps7_cortexa9_0/libsrc/my_gpio_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling my_gpio...
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling xadcps
+Finished building libraries
+18:31:10 **** Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22964	   1152	  22580	  46696	   b668	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+18:31:29 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+Finished building: ../src/gpio_custom.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79760	   2588	  23340	 105688	  19cd8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+18:31:47 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+18:32:41 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+18:33:15 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+18:36:50 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79552	   2588	  23340	 105480	  19c08	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+18:39:37 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79552	   2588	  23340	 105480	  19c08	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+18:40:13 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79552	   2588	  23340	 105480	  19c08	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+18:40:16 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+18:41:36 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+18:56:27 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79552	   2588	  23340	 105480	  19c08	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+18:57:00 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79296	   2588	  23340	 105224	  19b08	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+18:57:20 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+18:59:14 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79296	   2588	  23340	 105224	  19b08	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+18:59:26 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+19:03:23 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+Finished building: ../src/gpio_custom.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:52: error: expected expression before ‘/’ token
+     gpio_custom_SetAckInterrupt(&gpio, 0x2, HIGH);*/
+                                                    ^
+In file included from ../src/helloworld.c:51:0:
+../src/helloworld.c: At top level:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+make: *** [src/helloworld.o] Errore 1
+19:03:30 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79552	   2588	  23340	 105480	  19c08	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+19:03:32 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+19:09:25 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79552	   2588	  23340	 105480	  19c08	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+19:10:07 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+19:10:26 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+09:31:41 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+In file included from ../src/gpio_custom.c:1:0:
+../src/gpio_custom.h:58:13: warning: ‘gpio_custom_Toggle_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t position);
+             ^
+../src/gpio_custom.h:59:13: warning: ‘gpio_custom_Toggle_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask);
+             ^
+Finished building: ../src/gpio_custom.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:53:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:54:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:55:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:56:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:57:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+../src/gpio_custom.h:58:13: warning: ‘gpio_custom_Toggle_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t position);
+             ^
+../src/gpio_custom.h:59:13: warning: ‘gpio_custom_Toggle_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask);
+             ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79552	   2588	  23340	 105480	  19c08	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+09:33:42 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c: In function ‘gpio_custom_Toggle_one’:
+../src/gpio_custom.c:55:32: error: ‘set’ undeclared (first use in this function)
+  gpio_custom_Read_one(gpio,reg,set,position) == HIGH ? gpio_custom_Write_one(gpio,reg ,set,position,LOW) : gpio_custom_Write_one(gpio,reg,set,position,HIGH);
+                                ^
+../src/gpio_custom.c:55:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/gpio_custom.c:55:2: error: too many arguments to function ‘gpio_custom_Read_one’
+  gpio_custom_Read_one(gpio,reg,set,position) == HIGH ? gpio_custom_Write_one(gpio,reg ,set,position,LOW) : gpio_custom_Write_one(gpio,reg,set,position,HIGH);
+  ^
+../src/gpio_custom.c:50:17: note: declared here
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position){
+                 ^
+../src/gpio_custom.c:55:56: error: too many arguments to function ‘gpio_custom_Write_one’
+  gpio_custom_Read_one(gpio,reg,set,position) == HIGH ? gpio_custom_Write_one(gpio,reg ,set,position,LOW) : gpio_custom_Write_one(gpio,reg,set,position,HIGH);
+                                                        ^
+../src/gpio_custom.c:36:13: note: declared here
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value){
+             ^
+../src/gpio_custom.c:55:108: error: too many arguments to function ‘gpio_custom_Write_one’
+  gpio_custom_Read_one(gpio,reg,set,position) == HIGH ? gpio_custom_Write_one(gpio,reg ,set,position,LOW) : gpio_custom_Write_one(gpio,reg,set,position,HIGH);
+                                                                                                            ^
+../src/gpio_custom.c:36:13: note: declared here
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value){
+             ^
+../src/gpio_custom.c: In function ‘gpio_custom_Toggle_mask’:
+../src/gpio_custom.c:61:15: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+   if((0x1<<i) == (0x1<<i) & mask)){
+               ^
+../src/gpio_custom.c:61:34: error: expected statement before ‘)’ token
+   if((0x1<<i) == (0x1<<i) & mask)){
+                                  ^
+../src/gpio_custom.c: At top level:
+../src/gpio_custom.c:58:13: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+             ^
+make: *** [src/gpio_custom.o] Errore 1
+09:34:04 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c: In function ‘gpio_custom_Toggle_mask’:
+../src/gpio_custom.c:61:15: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+   if((0x1<<i) == (0x1<<i) & mask)){
+               ^
+../src/gpio_custom.c:61:34: error: expected statement before ‘)’ token
+   if((0x1<<i) == (0x1<<i) & mask)){
+                                  ^
+../src/gpio_custom.c: At top level:
+../src/gpio_custom.c:58:13: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+             ^
+make: *** [src/gpio_custom.o] Errore 1
+09:34:54 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c: In function ‘gpio_custom_Toggle_mask’:
+../src/gpio_custom.c:61:15: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+   if((0x1<<i) == (0x1<<i) & mask))){
+               ^
+../src/gpio_custom.c:61:34: error: expected statement before ‘)’ token
+   if((0x1<<i) == (0x1<<i) & mask))){
+                                  ^
+../src/gpio_custom.c:61:35: error: expected statement before ‘)’ token
+   if((0x1<<i) == (0x1<<i) & mask))){
+                                   ^
+../src/gpio_custom.c: At top level:
+../src/gpio_custom.c:58:13: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+             ^
+make: *** [src/gpio_custom.o] Errore 1
+09:43:19 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c: In function ‘gpio_custom_Toggle_mask’:
+../src/gpio_custom.c:61:15: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+   if((0x1<<i) == (0x1<<i) & mask){
+               ^
+../src/gpio_custom.c: At top level:
+../src/gpio_custom.c:58:13: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+             ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+09:43:35 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:58:13: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+             ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+09:50:35 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+15:35:12 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:58:13: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+             ^
+Finished building: ../src/gpio_custom.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:63:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:64:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:65:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:66:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:67:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+../src/gpio_custom.h:68:13: warning: ‘gpio_custom_Toggle_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t position);
+             ^
+../src/gpio_custom.h:69:13: warning: ‘gpio_custom_Toggle_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask);
+             ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+15:35:15 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+15:36:46 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+15:37:25 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:58:13: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+             ^
+Finished building: ../src/gpio_custom.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:66:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:67:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:68:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:69:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:70:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+../src/gpio_custom.h:71:13: warning: ‘gpio_custom_Toggle_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t position);
+             ^
+../src/gpio_custom.h:72:13: warning: ‘gpio_custom_Toggle_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask);
+             ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+15:37:29 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+15:40:27 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:77:13: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+             ^
+Finished building: ../src/gpio_custom.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:66:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:67:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, uint8_t value);
+             ^
+../src/gpio_custom.h:68:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, uint8_t value);
+             ^
+../src/gpio_custom.h:69:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:70:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+../src/gpio_custom.h:71:13: warning: ‘gpio_custom_Toggle_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t position);
+             ^
+../src/gpio_custom.h:72:13: warning: ‘gpio_custom_Toggle_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask);
+             ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+15:40:31 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+15:42:43 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:112:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+15:42:45 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+15:57:34 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:183:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:66:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:67:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, gpio_custom_ValueType value);
+             ^
+../src/gpio_custom.h:68:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, gpio_custom_ValueType value);
+             ^
+../src/gpio_custom.h:69:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:70:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+../src/gpio_custom.h:71:13: warning: ‘gpio_custom_Toggle_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t position);
+             ^
+../src/gpio_custom.h:72:13: warning: ‘gpio_custom_Toggle_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask);
+             ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+15:57:36 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+15:59:14 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+16:01:11 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+16:01:15 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+16:01:17 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+16:04:04 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+16:04:21 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:66:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:67:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, gpio_custom_ValueType value);
+             ^
+../src/gpio_custom.h:68:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, gpio_custom_ValueType value);
+             ^
+../src/gpio_custom.h:69:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:70:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+../src/gpio_custom.h:71:13: warning: ‘gpio_custom_Toggle_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t position);
+             ^
+../src/gpio_custom.h:72:13: warning: ‘gpio_custom_Toggle_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask);
+             ^
+Finished building: ../src/helloworld.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+16:04:42 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c: In function ‘gpio_custom_SetEnable’:
+../src/gpio_custom.c:209:56: error: ‘mask_value’ undeclared (first use in this function)
+  gpio_custom_Write_mask(gpio,gpio_custom_PAD_EN, mask, mask_value);
+                                                        ^
+../src/gpio_custom.c:209:56: note: each undeclared identifier is reported only once for each function it appears in
+../src/gpio_custom.c: At top level:
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+make: *** [src/gpio_custom.o] Errore 1
+16:04:55 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+16:06:56 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+16:11:40 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+16:11:42 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".
+16:11:52 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+16:12:33 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+16:21:07 **** Auto Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+12:21:56 **** Build of project gpio_interrupt_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/my_gpio_v1_0/src
+make -C ps7_cortexa9_0/libsrc/my_gpio_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/my_gpio_v1_0/src
+make -C ps7_cortexa9_0/libsrc/my_gpio_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling my_gpio...
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling xadcps
+Finished building libraries
+12:22:04 **** Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/gpio_custom.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_custom.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio_custom.d" -MT"src/gpio_custom.o" -o "src/gpio_custom.o" "../src/gpio_custom.c"
+../src/gpio_custom.c:182:6: warning: ‘gpio_custom_Toggle_mask’ defined but not used [-Wunused-function]
+ void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask){
+      ^
+Finished building: ../src/gpio_custom.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../src/gpio_custom.h:66:13: warning: ‘gpio_custom_Set_value_reg’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Set_value_reg(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask,uint32_t mask_value);
+             ^
+../src/gpio_custom.h:67:13: warning: ‘gpio_custom_Write_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask, gpio_custom_ValueType value);
+             ^
+../src/gpio_custom.h:68:13: warning: ‘gpio_custom_Write_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Write_one(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t position, gpio_custom_ValueType value);
+             ^
+../src/gpio_custom.h:69:17: warning: ‘gpio_custom_Read_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_mask(gpio_custom_TypeDef *gpio,uint32_t reg, uint32_t mask);
+                 ^
+../src/gpio_custom.h:70:17: warning: ‘gpio_custom_Read_one’ declared ‘static’ but never defined [-Wunused-function]
+ static uint32_t gpio_custom_Read_one(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t position);
+                 ^
+../src/gpio_custom.h:71:13: warning: ‘gpio_custom_Toggle_one’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_one(gpio_custom_TypeDef *gpio, uint32_t reg,uint8_t position);
+             ^
+../src/gpio_custom.h:72:13: warning: ‘gpio_custom_Toggle_mask’ declared ‘static’ but never defined [-Wunused-function]
+ static void gpio_custom_Toggle_mask(gpio_custom_TypeDef *gpio, uint32_t reg, uint32_t mask);
+             ^
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpio_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: gpio_interrupt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpio_interrupt_bsp/ps7_cortexa9_0/lib -o "gpio_interrupt.elf"  ./src/gpio_custom.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpio_interrupt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpio_interrupt.elf  |tee "gpio_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79744	   2588	  23340	 105672	  19cc8	gpio_interrupt.elf
+Finished building: gpio_interrupt.elf.size
+ 
+12:25:41 **** Incremental Build of configuration Debug for project gpio_interrupt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nessuna operazione da eseguire per "main-build".

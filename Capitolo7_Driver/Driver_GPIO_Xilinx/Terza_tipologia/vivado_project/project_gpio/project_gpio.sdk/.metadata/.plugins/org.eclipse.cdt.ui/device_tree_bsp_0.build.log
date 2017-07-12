@@ -1,0 +1,6 @@
+20:40:50 **** Auto Build of project device_tree_bsp_0 ****
+make -k all 
+make: Nessuna operazione da eseguire per "all".
+
+20:40:50 Build Finished (took 72ms)
+

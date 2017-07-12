@@ -1,0 +1,11 @@
+vhdl xil_defaultlib "../../../bd/design_for_gpio/hdl/design_for_gpio.vhd" 
+vhdl xil_defaultlib "../../../bd/design_for_gpio/ipshared/324c/src/gpio.vhd" 
+vhdl xil_defaultlib "../../../bd/design_for_gpio/ipshared/324c/src/gpio_array.vhd" 
+vhdl xil_defaultlib "../../../bd/design_for_gpio/ipshared/324c/hdl/my_gpio_v1_0_S00_AXI.vhd" 
+vhdl xil_defaultlib "../../../bd/design_for_gpio/ipshared/324c/hdl/my_gpio_v1_0.vhd" 
+vhdl xil_defaultlib "../../../bd/design_for_gpio/ip/design_for_gpio_my_gpio_0_0/sim/design_for_gpio_my_gpio_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/design_for_gpio/ip/design_for_gpio_my_gpio_0_1/sim/design_for_gpio_my_gpio_0_1.vhd" 
+vhdl xil_defaultlib "../../../bd/design_for_gpio/ip/design_for_gpio_my_gpio_0_3/sim/design_for_gpio_my_gpio_0_3.vhd" 
+vhdl xil_defaultlib "../../../bd/design_for_gpio/ip/design_for_gpio_rst_ps7_0_100M_0/sim/design_for_gpio_rst_ps7_0_100M_0.vhd" 
+
+nosort

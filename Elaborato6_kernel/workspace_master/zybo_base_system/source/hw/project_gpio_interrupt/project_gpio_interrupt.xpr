@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="17" Path="/home/daniele/Scrivania/workspace_master/zybo_base_system/source/hw/project_gpio_interrupt/project_gpio_interrupt.xpr">
+<Project Version="7" Minor="17" Path="/home/daniele/Sistemi_Embedded/Esercitazione_6/Elaborato6_kernel/workspace_master/zybo_base_system/source/hw/project_gpio_interrupt/project_gpio_interrupt.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="b9ff59afc8314c02851d930e896d3c04"/>
@@ -59,36 +59,28 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="hdl/design_gpio_interrupt.vhd"/>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="hdl/design_gpio_interrupt.hwdef"/>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_axi_gpio_0_1/design_gpio_interrupt_axi_gpio_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_xlconcat_0_0/design_gpio_interrupt_xlconcat_0_0.xci"/>
         <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_rst_ps7_0_100M_0/design_gpio_interrupt_rst_ps7_0_100M_0.xci">
           <Proxy FileSetName="design_gpio_interrupt_rst_ps7_0_100M_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_processing_system7_0_0/design_gpio_interrupt_processing_system7_0_0.xci">
-          <Proxy FileSetName="design_gpio_interrupt_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_axi_gpio_0_0/design_gpio_interrupt_axi_gpio_0_0.xci">
-          <Proxy FileSetName="design_gpio_interrupt_axi_gpio_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_axi_gpio_0_1/design_gpio_interrupt_axi_gpio_0_1.xci">
-          <Proxy FileSetName="design_gpio_interrupt_axi_gpio_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="design_gpio_interrupt_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_xbar_0/design_gpio_interrupt_xbar_0.xci">
-          <Proxy FileSetName="design_gpio_interrupt_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_xlconcat_0_0/design_gpio_interrupt_xlconcat_0_0.xci">
-          <Proxy FileSetName="design_gpio_interrupt_xlconcat_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_axi_gpio_0_2/design_gpio_interrupt_axi_gpio_0_2.xci">
-          <Proxy FileSetName="design_gpio_interrupt_axi_gpio_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="hw_handoff/design_gpio_interrupt_bd.tcl"/>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="hw_handoff/design_gpio_interrupt.hwh"/>
-        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="hdl/design_gpio_interrupt.hwdef"/>
         <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_auto_pc_0/design_gpio_interrupt_auto_pc_0.xci">
           <Proxy FileSetName="design_gpio_interrupt_auto_pc_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="design_gpio_interrupt_ooc.xdc"/>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="hw_handoff/design_gpio_interrupt_bd.tcl"/>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_axi_gpio_0_0/design_gpio_interrupt_axi_gpio_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_axi_gpio_0_2/design_gpio_interrupt_axi_gpio_0_2.xci"/>
         <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_ps7_0_axi_periph_0/design_gpio_interrupt_ps7_0_axi_periph_0.xci"/>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_xbar_0/design_gpio_interrupt_xbar_0.xci">
+          <Proxy FileSetName="design_gpio_interrupt_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="hdl/design_gpio_interrupt.vhd"/>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="hw_handoff/design_gpio_interrupt.hwh"/>
+        <CompFileExtendedInfo CompFileName="design_gpio_interrupt.bd" FileRelPathName="ip/design_gpio_interrupt_processing_system7_0_0/design_gpio_interrupt_processing_system7_0_0.xci">
+          <Proxy FileSetName="design_gpio_interrupt_processing_system7_0_0"/>
+        </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/design_gpio_interrupt/hdl/design_gpio_interrupt_wrapper.vhd">
         <FileInfo>
@@ -117,6 +109,7 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="design_gpio_interrupt_wrapper"/>
@@ -139,33 +132,9 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_gpio_interrupt_axi_gpio_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_gpio_interrupt_axi_gpio_0_0">
-      <Config>
-        <Option Name="TopModule" Val="design_gpio_interrupt_axi_gpio_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="design_gpio_interrupt_axi_gpio_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_gpio_interrupt_axi_gpio_0_1">
-      <Config>
-        <Option Name="TopModule" Val="design_gpio_interrupt_axi_gpio_0_1"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
     <FileSet Name="design_gpio_interrupt_xbar_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_gpio_interrupt_xbar_0">
       <Config>
         <Option Name="TopModule" Val="design_gpio_interrupt_xbar_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="design_gpio_interrupt_xlconcat_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_gpio_interrupt_xlconcat_0_0">
-      <Config>
-        <Option Name="TopModule" Val="design_gpio_interrupt_xlconcat_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="design_gpio_interrupt_axi_gpio_0_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_gpio_interrupt_axi_gpio_0_2">
-      <Config>
-        <Option Name="TopModule" Val="design_gpio_interrupt_axi_gpio_0_2"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -200,9 +169,7 @@
   <Runs Version="1" Minor="10">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -210,9 +177,7 @@
     </Run>
     <Run Id="design_gpio_interrupt_rst_ps7_0_100M_0_synth_1" Type="Ft3:Synth" SrcSet="design_gpio_interrupt_rst_ps7_0_100M_0" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_rst_ps7_0_100M_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/design_gpio_interrupt_rst_ps7_0_100M_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -220,29 +185,7 @@
     </Run>
     <Run Id="design_gpio_interrupt_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_gpio_interrupt_processing_system7_0_0" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_processing_system7_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/design_gpio_interrupt_processing_system7_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="design_gpio_interrupt_axi_gpio_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_gpio_interrupt_axi_gpio_0_0" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_axi_gpio_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/design_gpio_interrupt_axi_gpio_0_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="design_gpio_interrupt_axi_gpio_0_1_synth_1" Type="Ft3:Synth" SrcSet="design_gpio_interrupt_axi_gpio_0_1" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_axi_gpio_0_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/design_gpio_interrupt_axi_gpio_0_1_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -250,29 +193,7 @@
     </Run>
     <Run Id="design_gpio_interrupt_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="design_gpio_interrupt_xbar_0" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_xbar_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/design_gpio_interrupt_xbar_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="design_gpio_interrupt_xlconcat_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_gpio_interrupt_xlconcat_0_0" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_xlconcat_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/design_gpio_interrupt_xlconcat_0_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="design_gpio_interrupt_axi_gpio_0_2_synth_1" Type="Ft3:Synth" SrcSet="design_gpio_interrupt_axi_gpio_0_2" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_axi_gpio_0_2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/design_gpio_interrupt_axi_gpio_0_2_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -280,9 +201,7 @@
     </Run>
     <Run Id="design_gpio_interrupt_auto_pc_0_synth_1" Type="Ft3:Synth" SrcSet="design_gpio_interrupt_auto_pc_0" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_auto_pc_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/design_gpio_interrupt_auto_pc_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -290,9 +209,7 @@
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -308,9 +225,7 @@
     </Run>
     <Run Id="design_gpio_interrupt_rst_ps7_0_100M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_rst_ps7_0_100M_0" Description="Default settings for Implementation." SynthRun="design_gpio_interrupt_rst_ps7_0_100M_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -325,43 +240,7 @@
     </Run>
     <Run Id="design_gpio_interrupt_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_processing_system7_0_0" Description="Default settings for Implementation." SynthRun="design_gpio_interrupt_processing_system7_0_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="design_gpio_interrupt_axi_gpio_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_axi_gpio_0_0" Description="Default settings for Implementation." SynthRun="design_gpio_interrupt_axi_gpio_0_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="design_gpio_interrupt_axi_gpio_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_axi_gpio_0_1" Description="Default settings for Implementation." SynthRun="design_gpio_interrupt_axi_gpio_0_1_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -376,43 +255,7 @@
     </Run>
     <Run Id="design_gpio_interrupt_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_xbar_0" Description="Default settings for Implementation." SynthRun="design_gpio_interrupt_xbar_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="design_gpio_interrupt_xlconcat_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_xlconcat_0_0" Description="Default settings for Implementation." SynthRun="design_gpio_interrupt_xlconcat_0_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="design_gpio_interrupt_axi_gpio_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_axi_gpio_0_2" Description="Default settings for Implementation." SynthRun="design_gpio_interrupt_axi_gpio_0_2_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -427,9 +270,7 @@
     </Run>
     <Run Id="design_gpio_interrupt_auto_pc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="design_gpio_interrupt_auto_pc_0" Description="Default settings for Implementation." SynthRun="design_gpio_interrupt_auto_pc_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

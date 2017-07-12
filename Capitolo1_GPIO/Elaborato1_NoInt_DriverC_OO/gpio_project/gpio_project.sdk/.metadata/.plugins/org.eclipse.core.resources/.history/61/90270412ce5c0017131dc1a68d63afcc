@@ -1,0 +1,65 @@
+/**
+  ******************************************************************************
+  * @file    	mainc
+  * @authors	Colella Gianni - Guida Ciro - Lombardi Daniele / Group IV - Sistemi Embedded 2016-2017
+  * @version 	V1.0
+  * @date    	19-May-2017
+  * @brief   	Programma principale che contiene al suo interno l'implemetazione di
+  * 			un particolare driver che pilota la periferica
+  ******************************************************************************
+*/
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include <unistd.h>
+#include "gpio_custom.h"
+
+void init(gpio_custom_TypeDef*);
+void supercar(gpio_custom_TypeDef*);
+
+int main()
+{
+    init_platform();
+    gpio_custom_TypeDef gpio;
+    init(&gpio);
+    supercar(&gpio);
+    cleanup_platform();
+    return 1;
+}
+
+void init(gpio_custom_TypeDef* gpio){
+	gpio_custom_Init(gpio,GPIO_BASE);
+	gpio_custom_Write_mask(gpio,gpio_custom_PAD_EN, SET_LED, 0xF, HIGH);
+	gpio_custom_Write_mask(gpio,gpio_custom_PAD_OUT,SET_LED, 0xF,LOW);
+}
+
+void supercar(gpio_custom_TypeDef* gpio){
+	int position=0x0;
+	short int dx=0;
+	useconds_t usec = 500000;
+	while(1){
+		usleep(usec);
+		if(!dx){
+			gpio_custom_Toggle_one(gpio,gpio_custom_PAD_OUT, SET_LED, position);
+			usleep(usec);
+			gpio_custom_Toggle_one(gpio,gpio_custom_PAD_OUT,SET_LED, position);
+			if(position==0x3)
+				dx=1;
+			else
+				position++;
+		}
+		else{
+			position--;
+			gpio_custom_Toggle_one(gpio,gpio_custom_PAD_OUT,SET_LED, position);
+			usleep(usec);
+			gpio_custom_Toggle_one(gpio,gpio_custom_PAD_OUT,SET_LED, position);
+			if(position==0x0){
+				dx=0;
+				position++;
+			}
+		}
+	}
+
+
+}
