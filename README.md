@@ -37,6 +37,5 @@ Scrivere i driver per Linux nelle tre modalità:
 ## Exercise 8
 FreeRTOS, fare un esercizio a piacere.
 È consigliato che tutti facciano lo stesso esercizio: ci sono due task ed entrambi fanno una printf. Vedere come si accavallano modificando le priorità, i tempi di attesa, etc. 
-+ Opzionale: implementare ECOS.
 
 Per una documentazione accurata esterna ed interna di ogni elaborato si rimanda al repository "Embedded System Documentation".
