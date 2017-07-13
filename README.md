@@ -46,4 +46,4 @@ In un primo momento, si utilizzi la periferica GPIO fornita dalla Xilinx e messa
 ## Exercise 8
 Si implementi una versione del Sistema Operativo RealTime FreeRTOS su board STMicroeletronic STM32F4Discovery e, implementando vari task con priorità diverse, si facciano valutazioni sul meccanismo di scheduling dei vari task.
 
-Per una documentazione accurata esterna ed interna di ogni elaborato si rimanda al repository "Embedded System Documentation".
+Per una documentazione accurata (esterna ed interna) di ogni elaborato si rimanda al repository Embedded System Documentation, disponibile al link https://github.com/F3CDG/Embedded-System-Documentation.
