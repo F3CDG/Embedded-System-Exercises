@@ -8,9 +8,8 @@ In questo repository sono caricati tutti gli elaborati previsti per il Corso di 
 Di seguito si presenta la lista di tutti gli elaborati con una breve descrizione di riferimento.
 
 ## Exercise 1
-Rifare l’esercizio visto a lezione del GPIO custom e corredarlo dei relativi driver in C.
-Rifare lo stesso esercizio ma arricchendolo con una logica custom per la gestione delle interruzioni.
-+ Opzionale: scrivere gli stessi driver in C orientato agli oggetti. 
+In questo elaborato viene mostrato come utilizzare un General Purpose Input/Output per pilotare i led della board Digilent Zybo Zynq-7000. Per la realizzazione di tale obiettivo, si divide il lavoro in due parti. Nella prima parte, dopo aver definito manualmente un componente GPIO lo si impacchetta in un IP-Core e lo si utilizza insieme al Processing System Zinq. Nella seconda parte, invece, in aggiunta all'architettura già creata, viene introdotto uno strato driver, utile al controllo dei led.
+Successivamente a partire dall'IP core creato, si aggiunge un supporto custom che permette alla periferica di lanciare interruzioni verso il PS.
  
 ## Exercise 2
 Rifare l’esercizio del bsp della STM visto a lezione facendone uno custom.
